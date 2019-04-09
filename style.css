@@ -11,11 +11,8 @@ body {
 }
 
 .player-container {
-    padding: 10%;
-}
-
-.player-heading {
-    display: inline;
+    padding: 5%;
+    display: inline-block;
 }
 
 .footer-container {
