@@ -8,6 +8,11 @@ body {
 
 /* Title Section */
 
+.title-container {
+    width: 50%;
+    margin: auto;
+}
+
 .main-title {
     font-family: "Cinzel", serif;
     padding-top: 5%;
