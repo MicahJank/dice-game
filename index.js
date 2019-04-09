@@ -10,6 +10,8 @@ document.getElementById("player1-img").src = `/images/dice${player1Img}.png`;
 document.getElementById("player2-img").src = `/images/dice${player2Img}.png`;
 
 
+// Depending on which player has the higher number, show the appropriate heading letting
+// them know who won or if it is a draw.
 if (player1Img > player2Img) {
     document.getElementById("title").innerText = "Player 1 Wins!";
 } else if (player2Img > player1Img) {
